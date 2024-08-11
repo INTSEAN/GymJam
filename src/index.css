@@ -14,11 +14,11 @@ span {
   font-weight: inherit;
 }
 
-.blueShadow {
-  box-shadow: 3px 3px 0 0 #60a5fa;
+.greenShadow {
+  box-shadow: 3px 3px 0 0 #60fa77;
 }
 
-.blueShadow:hover {
+.greenShadow:hover {
   transform: translate(-3px, -3px);
-  box-shadow: 6px 6px 0 0 #60a5fa;
+  box-shadow: 6px 6px 0 0 #6afa60;
 }
