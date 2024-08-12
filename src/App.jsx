@@ -13,12 +13,12 @@ function App() {
 
   const [token, setToken] = useState("");
 
-  // const CLIENT_ID = "2eb1465c81ce463584d6a610798d4fc5";
-  // const REDIRECT_URI = "https://gymjam.netlify.app/";
-  // const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
-  const CLIENT_ID = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
-  const AUTH_ENDPOINT = process.env.REACT_APP_SPOTIFY_AUTH_ENDPOINT;
-  const REDIRECT_URI = process.env.REACT_APP_SPOTIFY_REDIRECT_URI;
+  const CLIENT_ID = "2eb1465c81ce463584d6a610798d4fc5";
+  const REDIRECT_URI = "https://gymjam.netlify.app/";
+  const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
+  // const CLIENT_ID = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
+  // const AUTH_ENDPOINT = process.env.REACT_APP_SPOTIFY_AUTH_ENDPOINT;
+  // const REDIRECT_URI = process.env.REACT_APP_SPOTIFY_REDIRECT_URI;
   const RESPONSE_TYPE = "token";
 
   useEffect(() => {
