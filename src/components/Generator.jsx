@@ -131,7 +131,7 @@ export default function Generator(props) {
         <Header
           index={"03"}
           title={"Become ripped"}
-          description={"Select the your ultimate dance battle."}
+          description={"Select your ultimate dance battle."}
         />
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           {Object.keys(SCHEMES).map((scheme, schemeIndex) => {
