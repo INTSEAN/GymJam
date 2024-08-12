@@ -5,10 +5,6 @@ import ExerciseCard from "./ExerciseCard";
 export default function Workout(props) {
   const { workout } = props;
   return (
-    <div className="flex">
-      {/* Add your Spotify API code here */}
-      <div>
-        {/* Existing div */}
         <SectionWrapper
           id={"workout"}
           header={"Welcome to"}
@@ -20,7 +16,5 @@ export default function Workout(props) {
             })}
           </div>
         </SectionWrapper>
-      </div>
-    </div>
   );
 }
