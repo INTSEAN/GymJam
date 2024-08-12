@@ -59,7 +59,7 @@ export default function Generator(props) {
     <>
       <SectionWrapper
         id={"generate"}
-        header={"Generate your music"}
+        header={"Generate your workout"}
         title={["It's", "Jam", "o'clock"]}
       >
         <Header
@@ -77,7 +77,7 @@ export default function Generator(props) {
                 }}
                 className={
                   "bg-slate-950 border duration-200 hover:border-green-600 py-3 rounded-lg " +
-                  (type === poison ? "border-green-600" : "border-green-400")
+                  (type === poison ? "border-green-600" : "border-emerald-100")
                 }
                 key={typeIndex}
               >
@@ -142,7 +142,7 @@ export default function Generator(props) {
                 }}
                 className={
                   "bg-slate-950 border duration-200  px-4  hover:border-green-600 py-3 rounded-lg " +
-                  (scheme === goal ? "border-green-600" : "border-green-400")
+                  (scheme === goal ? "border-green-600" : "border-emerald-100")
                 }
                 key={schemeIndex}
               >
