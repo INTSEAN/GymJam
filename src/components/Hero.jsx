@@ -89,15 +89,15 @@ export default function Hero(props) {
                 ))}
               </select>
 
-              <iframe
-                src={`https://open.spotify.com/embed/playlist/${selectedPlaylist}`}
-                width="540"
-                height="80"
-                frameBorder="0"
-                allowtransparency="true"
-                allow="encrypted-media"
-                className="mt-4"
-              ></iframe>
+              <div className="iframe-container">
+                <iframe
+                  src={`https://open.spotify.com/embed/playlist/${selectedPlaylist}`}
+                  frameBorder="0"
+                  allowtransparency="true"
+                  allow="encrypted-media"
+                  className="iframe-widget"
+                ></iframe>
+              </div>
             </div>
           ) : (
             <p className="text-gray-400">

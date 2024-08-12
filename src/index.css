@@ -22,3 +22,20 @@ span {
   transform: translate(-3px, -3px);
   box-shadow: 6px 6px 0 0 #6afa60;
 }
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-top: 15px; /* Adjust this to maintain the aspect ratio */
+}
+
+.iframe-widget {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px; /* Adjust the height as needed */
+  border: none;
+}
+
+
