@@ -140,9 +140,9 @@ export default function Hero(props) {
           </div>
         ) : (
           <div>
-            <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+{/*             <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
               GET YOUR <span className="text-green-400">EXERCISE</span>
-            </h1>
+            </h1> */}
             <div className="flex flex-col gap-10">
               <Button
                 func={() => {
