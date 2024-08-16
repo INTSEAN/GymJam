@@ -1,8 +1,7 @@
-# React + Vite
+# Gym Jam
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The ultimate gym training app built with React & Tailwind CSS
 
-Currently, two official plugins are available:
+Check it out and feel free to DM when you hit your fitness goals!
+https://gymjam.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
